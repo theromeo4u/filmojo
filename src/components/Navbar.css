@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: var(--textColor);
+    transition: all 200ms ease-in;
+}
+
+nav a:hover{
+    color:var(--secondaryColor);
+}
+.nav-btn{
+    padding: 2px;
+    background: transparent;
+    color:var(--textColor);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    transition: all 200ms ease-in;
+}
+
+.container nav,nav{
+    display: flex;
+    align-items: center;
+}
